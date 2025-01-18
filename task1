@@ -1,0 +1,17 @@
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(6,OUTPUT);
+  pinMode(3,OUTPUT);// set pin 6led as output
+
+}
+void loop() {
+  digitalWrite(6,HIGH);
+  delay(500);//do nothing for 1 sec
+  digitalWrite(6,LOW);
+  delay(500);
+  digitalWrite(3,HIGH);
+  delay(500);//do nothing 
+  digitalWrite(3,LOW);
+  delay(500);
+}
+
